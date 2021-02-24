@@ -1747,15 +1747,22 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
-		ul.actions li {
-			display: inline-block;
-			margin-left: 1em;
+	ul.actions li {
+			/* display: inline-block; */
+			display: block;
+			/* margin-left: 1em; */
 			padding-left: 0;
-		}
+			margin-bottom: 10px;
+	}
 
-			ul.actions li:first-child {
-				margin-left: 0;
-			}
+	ul.actions li .button {
+		width: 100%;
+			/* display: block; */
+	}
+
+	ul.actions li:first-child {
+		/* margin-left: 0; */
+	}
 
 /* Links */
 
@@ -2734,13 +2741,14 @@ input, select, textarea {
 				display: block;
 			}
 
-				ul.actions li .button {
-					width: 100%;
-				}
+			ul.actions li .button {
+				width: 100%;
+					/* display: block; */
+			}
 
-				ul.actions li:first-child {
-					margin-top: 0;
-				}
+			ul.actions li:first-child {
+				margin-top: 0;
+			}
 
 		/* Section/Article */
 
